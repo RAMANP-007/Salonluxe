@@ -1,12 +1,65 @@
-# React + Vite
+# Salonluxe 💇‍♀️✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Salonluxe** is a sleek and modern salon website built to showcase services, handle appointments, and deliver a seamless user experience for beauty and grooming businesses.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Website](https://salonluxe.vercel.app/)  
+📁 [View Repository](https://github.com/RAMANP-007/Salonluxe)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔥 Stylish and responsive landing page
+- 📅 Appointment booking section
+- 📱 Mobile-friendly design
+- ✉️ Contact form with email functionality (optional)
+- 💇‍♂️ Service showcase with pricing
+- 🖼️ Gallery to highlight previous work
+- 🌙 Light and elegant color palette
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, HTML5, CSS3
+- **Styling:** Tailwind CSS / Custom CSS 
+- **Deployment:** Vercel
+
+---
+
+## 📸 Screenshots
+
+> (Add screenshots in `/public/images/` and reference them like below)
+
+![Homepage Screenshot](./public/images/salon-home.png)
+![Booking Section](./public/images/salon-booking.png)
+
+---
+
+## 📁 Folder Structure (Simplified)
+
+Salonluxe/
+├── public/
+│ └── images/
+├── src/
+│ ├── components/
+│ ├── App.jsx
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🧑‍💻 Getting Started Locally
+
+```bash
+git clone https://github.com/RAMANP-007/Salonluxe.git
+cd Salonluxe
+npm install
+npm run dev
