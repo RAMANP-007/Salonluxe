@@ -1,0 +1,64 @@
+/* Contact Section Styling */
+.contact-section {
+  padding: 6rem 0;
+  background: var(--secondary-gradient);
+  color: #fff;
+}
+
+.contact-section .section-title {
+  color: #fff;
+}
+
+.contact-section .section-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Glassmorphism Form Styling */
+.contact-form .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 1.25rem 1rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+  color: #fff;
+}
+
+/* Floating Labels */
+.contact-form .form-floating > label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form .form-floating > .form-control:-webkit-autofill,
+.contact-form .form-floating > .form-control:-webkit-autofill:hover,
+.contact-form .form-floating > .form-control:-webkit-autofill:focus,
+.contact-form .form-floating > .form-control:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.1) inset !important;
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Submit Button */
+.contact-submit-btn {
+  background: var(--primary-gradient);
+  border: none;
+  padding: 0.8rem 3rem;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.contact-submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 25px rgba(252, 175, 199, 0.3);
+}
